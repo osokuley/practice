@@ -34,7 +34,7 @@ summary(out.pois)
 #But a negative binomial GLM fit our data much better, remember= 
 #Fit the NB GLM using the glm.nb() function 
 
-out.nb <- glm.nb(counts ~ pop * prey, data = dat,)
+out.nb <- glm.nb(counts ~ pop * prey, data = dat)
 summary(out.nb)
 
 # Now, save your new code
